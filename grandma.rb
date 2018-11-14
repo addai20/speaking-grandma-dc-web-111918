@@ -6,7 +6,7 @@ def speak_to_grandma(phrase)
     return 'I LOVE YOU TOO PUMPKIN!'
   
   # If the phrase does not include all caps
-  elsif phrase[0..-2] != phrase.upcase
+  elsif phrase != phrase.upcase
     return "HUH?! SPEAK UP, SONNY!"
     
   else
